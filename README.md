@@ -1,39 +1,86 @@
-# HG-012 (Hugo) - Asistente de Estructuración Metodológica
+# Hugo (HG-012) - Asistente de Investigación y Estructuración Metodológica
 
-HG-012 (Hugo) es un agente de inteligencia artificial diseñado para operar como soporte metodológico y arquitecto de argumentos en investigaciones de Ciencias Sociales, Humanidades y Ciencias de la Conducta.Este proyecto nace de la necesidad de integrar herramientas computacionales avanzadas en la investigación cualitativa y mixta sin delegar la cognición humana ni el procesamiento empírico a algoritmos.
+## 1. Presentación Inmediata: ¿Qué es y para qué sirve?
 
-## ⚠️ Prohibiciones Absolutas (Guardarraíles del Sistema)Para garantizar el rigor académico y la responsabilidad ética, la persona investigadora es el único sujeto cognoscente. Hugo opera bajo las siguientes restricciones inquebrantables codificadas en su sistema:
-1. Cero Análisis Empírico: Hugo no procesa, codifica, interpreta ni analiza bases de datos,  ranscripciones de entrevistas, estadísticas ni datos brutos.
-2. Cero Generación de Código Analítico: Hugo no escribe ni ejecuta scripts (Python, R, SPSS) para análisis de datos empíricos.
-3. Herramienta, no Autor: La IA no es autora ni decide conclusiones. Su uso debe declararse bajo normativas académicas de transparencia.
+Hugo es un agente de Inteligencia Artificial configurado como un asistente metodológico estricto. Su propósito principal es servir de Andamio Dinámico para la investigación, específicamente enfocado y calibrado para las ciencias sociales y de la conducta.
 
-## 🧠 Marco Epistemológico y Contexto CríticoEl diseño lógico de Hugo integra un marco analítico transversal para mitigar sesgos hegemónicos. El agente está programado para:
-- Cuestionar la Monarquía de los Expertos: Evitar la consolidación de un orden donde la tecnociencia opere como control social.
-- Demarcación Epistémica: Diferenciar estrictamente el neopositivismo popperiano (falsacionismo) del cientificismo dogmático hegemónico.
-- Mitigar la Exclusión por Formato: Priorizar y estructurar la búsqueda de literatura gris y repositorios latinoamericanos (SciELO, Redalyc, CLACSO) para contrarrestar los sesgos de indexación corporativa (ej. Scopus).
-- Visibilizar lo Social: Resistir la subordinación de las ciencias sociales ante dinámicas de valorización puramente industriales.
+Ayuda a orquestar el aparato crítico de una investigación, asignar roles a la evidencia (triangulación de fuentes académicas, grises y periodísticas) y estructurar argumentos, absteniéndose estrictamente de realizar análisis de datos empíricos. Hugo no hace el trabajo por ti; estructura el terreno para que tú, como único sujeto cognoscente, puedas operar con máxima claridad.
 
-## ⚙️ Arquitectura Funcional
+## 2. Fundamentos Metodológicos y Posicionamiento
 
-La asistencia metodológica de Hugo se estructura en tres niveles de diseño de investigación:
+Este agente fue diseñado por J. Víctor Faccio Lucero tomando como base profundas consideraciones metodológicas recuperadas del trabajo de pensadores y académicos como Hugo Sáez Arreceygor, Noemí Luján P., Michel Alhadeff Jones y Restituto Sierra Bravo, entre otros/as pensadores críticos.
 
-1. Nivel Ético-Epistémico (A): Definición de supuestos ontológicos y axiológicos (Positivismo, Interpretativismo, Pragmatismo, Complejidad, etc.).
-2. Nivel Lógico-Procesual (B): Marco de diseño y preguntas de investigación.
-3. Nivel Técnico-Instrumental (C): Ideación de herramientas de recolección de datos (sin ejecución ni análisis).
+Nota sobre la arquitectura técnica: Para optimizar las instrucciones del sistema (System Prompting), nos servimos de algunos elementos estructurales en idioma inglés. Esto responde a la anatomía actual de los Modelos de Lenguaje Grande (LLMs). Sin embargo, mantenemos este diseño con la profunda esperanza de que en el futuro emerja una arquitectura algorítmica latinoamericana que nos ayude a prescindir de estas limitantes técnicas coloniales.
 
-## Protocolo de Integración Externa
-Hugo no sustituye la revisión documental; la optimiza. Incluye tres modalidades para interactuar con bases de datos (Consensus AI, Google Scholar, Biblioteca Digital de la UAM):
+## 3. Guía de Instalación (Configuración del Entorno)
 
-- Modo 1 (Ingeniería de Consultas): Generación de cadenas booleanas.
-- Modo 2 (Flujo Iterativo): Procesamiento de resúmenes externos para estructurar el estado de la cuestión.
-- Modo 3 (Vigilancia Epistémica): Evaluación activa de sesgos algorítmicos en motores de búsqueda comerciales.
+Hugo no es una aplicación ejecutable tradicional, sino una Personalidad de Sistema (System Prompt) codificada en formato JSON. Para instanciar a Hugo, requieres un entorno que soporte directivas de sistema avanzado.
 
-## 🚀 Instalación y Uso
+Pasos para la reproducibilidad:
 
-Este repositorio contiene la configuración en formato JSON (/config/hg-012-config.json) estructurada para plataformas de orquestación de agentes IA.
+1. Copia el contenido completo del archivo hugo_agent.json.
+2. Abre un entorno de ejecución de LLMs (ej. Google AI Studio, OpenAI Playground, o interfaces de código abierto como LM Studio / AnythingLLM).
+3. Pega el JSON en la sección designada para el System Prompt, System Instructions o Configuración del Agente.
+4. Ajusta la temperatura del modelo a un nivel bajo (ej. 0.2 a 0.4) para priorizar la rigurosidad analítica, o a un nivel medio (ej. 0.5 a 0.7) si se desea ampliar el margen de creatividad.
 
-1. Clona el repositorio: git clone https://github.com/tu-usuario/hg-012-agente-metodologico.git
-2. Copia el contenido de hg-012-config.json.
-3. Pega la configuración en el bloque de "System Instructions" o "System Prompt" de tu entorno de desarrollo o cliente LLM preferido.
+## 5. Instrucciones de Uso y Ejemplos Prácticos
 
-## 📄 Licencia y ContribuciónEste proyecto fomenta la co-construcción de saberes y la comunicación científica abierta. Por favor, consulta el archivo LICENSE para detalles de uso y atribución.
+A continuación, se muestran ejemplos de cómo interactuar con Hugo para activar sus flujos de trabajo principales.
+
+### A) Iniciando un Proyecto (Onboarding)
+
+Para comenzar a definir tu investigación, utiliza este prompt:
+
+[Prompt de la Persona Usuaria]:
+Hola Hugo. Quiero iniciar un nuevo proyecto de investigación sobre la gentrificación en la Ciudad de México. Inicia tu protocolo de Onboarding, por favor.
+
+
+Salida esperada: Hugo iniciará su calibración sistémica, haciéndote un máximo de 2 preguntas metodológicas a la vez para evitar sobrecarga cognitiva.
+
+### B) Aplicando el "Winter Protocol" (Bloqueo del Investigador)
+
+Si te encuentras atascado, indícalo claramente:
+
+[Prompt de la Persona Usuaria]:
+Hugo, estoy agotada. No avanzo con la redacción del marco teórico y siento que mis fuentes se contradicen. No puedo más.
+
+
+Salida esperada: Hugo no hará el trabajo por ti, sino que aplicará su diagnóstico sistémico: validará tu esfuerzo previo y te propondrá una meta micro viable ("Sólo un párrafo hoy") enfocada en un solo rol de evidencia.
+
+### C) Ingeniería de Consultas para Herramientas Externas
+
+Si necesitas buscar literatura, pide ayuda con los operadores:
+
+[Prompt de la Persona Usuaria]:
+Necesito hacer una búsqueda en Google Scholar sobre la percepción social de la gentrificación. Quiero usar literatura gris y periodística. Dame la cadena de búsqueda.
+
+
+Salida esperada: Hugo generará una cadena booleana exacta y copiable, adaptada para encontrar documentos institucionales y reportes de prensa.
+
+## 5. Límites Operativos (Guardrails)
+
+Por diseño metodológico, Hugo tiene restricciones codificadas:
+
+🛑 **PROHIBICIÓN**: No procesa, codifica, interpreta ni analiza datos brutos (entrevistas, encuestas, estadísticas).
+
+🛑 **NO GENERA CÓDIGO ANALÍTICO:** No escribirá scripts en Python, R o SQL para análisis de datos.
+
+🛑 **NO ES AUTOR:** Hugo exigirá que declares su uso y pedirá marcadores como [CITA NECESARIA] cuando asuma información teórica.
+
+## 6. Comunidad y Contribución
+
+Hugo está pensado para funcionar en múltiples contextos de investigación y para ser mejorado por la comunidad académica y tecnológica.
+
+¿Cómo contribuir?
+
+1. Clona/Descarga el repositorio o archivo base.
+2. Si detectas mejoras en el esquema de Prompting o en los paradigmas epistémicos, propón la adición en el archivo JSON.
+3. Comparte tus adaptaciones locales (por ejemplo, si calibraste a Hugo para enfocarse exclusivamente en metodologías decoloniales o teoría fundamentada).
+
+## 7. Atribución y Licencia
+
+Este proyecto se distribuye bajo la licencia GNU General Public License v3.0 (GPLv3). Eres libre de usar, modificar y distribuir esta arquitectura, siempre y cuando mantengas la misma licencia en tus obras derivadas y otorgues el crédito correspondiente.
+
+Cita sugerida:
+
+Faccio Lucero, J. V. (2024). Hugo (HG-012): Asistente de Investigación y Estructuración Metodológica basado en LLMs. Publicado bajo licencia GPLv3.
